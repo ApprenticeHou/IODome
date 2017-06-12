@@ -14,7 +14,7 @@ public static void main(String[] args){
 //	System.out.println(b);
 //Elivs elivs=(Elivs) deserialize(b);
 Elivs impersonator=ElivsStealer.impersonator;
-System.out.println(impersonator.toString());
+//System.out.println(impersonator.toString());
 //elivs.printFavorite();
 impersonator.printFavorite();
 }
@@ -53,6 +53,6 @@ class ElivsStealer implements Serializable{
 		impersonator=payload;
 		return new String[] {"ganganaganagana"};
 	}
-	private static final long serialVersionUID=0;
+	private static final long serialVersionUID=8883838;
 }
 
